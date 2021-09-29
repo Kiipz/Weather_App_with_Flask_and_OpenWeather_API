@@ -1,0 +1,26 @@
+body {
+    background-color: #ddd8d8;
+}
+.header {
+    background-color: #128C7E;
+}
+.header h2 {
+    color: #fff;
+}
+input:focus, button:focus {
+    outline: none!important;
+    box-shadow: none!important;
+}
+.card {
+    position: relative;
+    border: none;
+    box-shadow: 1px 1px 2px;
+}
+.card h4 {
+    text-transform: capitalize;
+}
+.card .btn-close { /* delete button */
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}
